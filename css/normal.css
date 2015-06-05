@@ -1,0 +1,17 @@
+#section-4{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding: 10% 0;
+}
+.form{
+	display: inline-block;
+	text-align: left;
+}
+#section-4 p {
+	margin: 3% 0 !important;
+	text-align: inherit !important;
+}
+body{
+	min-width: 320px !important;
+}

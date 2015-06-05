@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:700|Ubuntu|Ubuntu:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" media="(max-width : 767px)" href="css/style.css">
+		<link rel="stylesheet" media="(max-width : 1024px)" href="css/style2.css">
+		<link rel="stylesheet" media="(max-width : 1824px)" href="css/style3.css">
+		<link rel="stylesheet" href="css/normal.css">
+		<script src="js/scroll.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+		<title>POKE Portafolio</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li class="icontabs" alt="Quién soy">
+						<a href="#section-1" class="scroll">
+							<img id="who-icon" src="imgs/iconos_tab-01.png">
+						</a>
+					</li>
+					<li class="icontabs" alt= "Que hago">
+						<a href="#section-2" class="scroll">
+							<img id="what-icon" src="imgs/iconos_tab-02.png">
+						</a>
+					</li>
+					<li class="icontabs" alt="Mi portafolio">
+						<a href="#section-3" class="scroll">
+							<img id="portfolio-icon" src="imgs/iconos_tab-03.png">
+						</a>
+					</li>
+					<li class="icontabs" alt="Contáctame">
+						<a href="#section-4" class="scroll">
+							<img id="callme-icon" src="imgs/iconos_tab-04.png">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="logo-header">
+				<img src="imgs/pokelogo-01.png">
+			</div>
+			<article id="seccion1">
+				<p class="txt-intro">¡Hola mundo!, me llamo Karina</p>
+				<p class="txt-intro2">Mi sobrenombre artístico es POKE y este es mi portafolio web.</p>
+				<div id="miCV">
+					<button id="descargaCV">
+					<a href="" download="MiCV">Descarga mi CV</a>
+					</button>
+				</div>
+			</article>
+		</header>
+		
+		<section>
+			<article id="section-1">
+				<h1>Quién soy</h1>
+				<div id="tema01">
+					<img class="temasimg" src="imgs/quiensoy-01.png">
+					<p>Soy diseñadora gráfica, tengo experiencia en diseño editorial, e ilustración (¡cuantas cosas!). </p>
+				</div>
+				
+				<div id="tema02">
+					<img class="temasimg" src="imgs/quiensoy-02.png">
+					<p>Vivo, como y sueño en el D.F. Chilanguita forever!</p>
+				</div>
+				
+				<div id="tema03">
+					<img class="temasimg" src="imgs/quiensoy-03.png">
+					<p>Amo leer historias de terror y ciencia ficción, y si nos vamos a los videojuegos, los de tipo sand-box (crear, crear y crear) como Minecraft ¡son mis favoritos!.</p>
+				</div>
+			</article>
+		</section>
+		<section>
+			
+			<article id="section-2">
+				<div></div>
+				<h1>Qué hago</h1>
+				
+				<p>Mi trabajo radica no solo en hacer un diseño estéticamente atractivo sino también funcional y óptimo, adecuandose al trabajo con las siguientes herramientas:</p>
+				<div id="herramientas">
+					<div id="herramienta1">
+						<img class="herramientas" src="imgs/herramientas-01.png">
+						<p>Experto:  Paquetería básica de Windows Office 2013, Photoshop CS6,  InDesign CS6, Illustrator CS6</p>
+					</div>
+					<div  id="herramienta2">
+						<img class="herramientas" src="imgs/herramientas-02.png">
+						<p>Intermedio: Corel Painter XI, Corel Draw X6, Sai Painter Tool, Zbrush, Screenflow, Prezi y Carrara 6</p>
+					</div>
+					<div  id="herramienta3">
+						<img class="herramientas" src="imgs/herramientas-03.png">
+						<p>Básico: HTML y CSS, Flash CS6.</p>
+					</div>
+				</div>
+			</article>
+		</section>
+		
+		<section>
+			<article id="section-3">
+				<h1>Mi portafolio</h1>
+				<div class="fotorama" data-width="100%"
+					data-ratio="800/600" data-transition="crossfade">
+					<img src="imgs/ilustr01.jpg">
+					<img src="imgs/ilustr02.jpg">
+					<img src="imgs/ilustr03.jpg">
+					<img src="imgs/ilustr04.jpg">
+					<img src="imgs/ilustr05.jpg">
+					<img src="imgs/ilustr06.jpg">
+					<img src="imgs/ilustr07.jpg">
+					<img src="imgs/ilustr08.jpg">
+					<img src="imgs/ilustr09.jpg">
+					<img src="imgs/ilustr10.jpg">
+					<img src="imgs/ilustr11.jpg">
+					<img src="imgs/ilustr12.jpg">
+					<img src="imgs/ilustr12.jpg">
+				</div>
+			</article>
+		</section>
+		<section>
+			<article id="section-4">
+				<h1>Contáctame</h1>
+				<p>Ponte en contacto conmigo y ¡trabajemos juntos!</p>
+				<form class="form">
+					<p class="name">
+						<input type="text" name="name" id="name" />
+						<label for="name">Nombre</label>
+					</p>
+					
+					<p class="email">
+						<input type="text" name="email" id="email" />
+						<label for="email">E-mail &nbsp; &nbsp;</label>
+					</p>
+					
+					<p class="text">
+						<textarea name="text"></textarea>
+					</p>
+					
+					<p class="submit">
+						<input type="submit" value="Enviar" />
+					</p>
+				</form>
+			</article>
+		</section>
+		<footer>
+			<p>Algo algo y asi y asi :U</p>
+		</footer>
+	</body>
+</html>
